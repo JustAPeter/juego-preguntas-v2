@@ -105,17 +105,680 @@ var listaPreguntas = [
         pregunta: 'anatra.png',
         opciones: [
             {
-                texto: 'a- patto',
-                esCorrecta: false
+                texto: 'a- Anatra',
+                esCorrecta: true
             },
             {
-                texto: 'b- anatra',
-                esCorrecta: true
+                texto: 'b- Patto',
+                esCorrecta: false
             },
             {
                 texto: 'c- ... No se',
                 esCorrecta: false
             }
         ]
-    }
+    },
+    {
+        pregunta: 'arcobaleno.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: false,
+            },
+            {
+                texto: 'b- Arcobaleno',
+                esCorrecta: true,
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: false,
+            }
+        ]
+    },
+    {
+        pregunta: 'asino.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Asino',
+                esCorrecta: true
+            }
+        ]
+    },
+    {
+        pregunta: 'auto.png',
+        opciones: [
+            {
+                texto: 'a- Auto',
+                esCorrecta: true
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'baseball.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: false,
+            },
+            {
+                texto: 'b- Baseball',
+                esCorrecta: true,
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: false,
+            }
+        ]
+    },
+    {
+        pregunta: 'blu.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Blu',
+                esCorrecta: true
+            }
+        ]
+    },
+    {
+        pregunta: 'burro.png',
+        opciones: [
+            {
+                texto: 'a- Burro',
+                esCorrecta: true
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'calcio.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: false,
+            },
+            {
+                texto: 'b- Calcio',
+                esCorrecta: true,
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: false,
+            }
+        ]
+    },
+    {
+        pregunta: 'calze.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Calze',
+                esCorrecta: true
+            }
+        ]
+    },
+    {
+        pregunta: 'camicia.png',
+        opciones: [
+            {
+                texto: 'a- Camicia',
+                esCorrecta: true
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'carta.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: false,
+            },
+            {
+                texto: 'b- Carta',
+                esCorrecta: true,
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: false,
+            }
+        ]
+    },
+    {
+        pregunta: 'cartella.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Cartella',
+                esCorrecta: true
+            }
+        ]
+    },
+    {
+        pregunta: 'cerchio.png',
+        opciones: [
+            {
+                texto: 'a- Cerchio',
+                esCorrecta: true
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'ciocolato.png',
+        opciones: [
+            {
+                texto: 'a- Chocolatte',
+                esCorrecta: false,
+            },
+            {
+                texto: 'b- Ciocolato',
+                esCorrecta: true,
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: false,
+            }
+        ]
+    },
+    {
+        pregunta: 'colla.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Cola',
+                esCorrecta: true
+            }
+        ]
+    },
+    {
+        pregunta: 'coniglio.png',
+        opciones: [
+            {
+                texto: 'a- Coniglio',
+                esCorrecta: true
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: '.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: false,
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: true,
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: false,
+            }
+        ]
+    },
+    {
+        pregunta: '.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: true
+            }
+        ]
+    },
+    {
+        pregunta: '.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: true
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: '.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: false,
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: true,
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: false,
+            }
+        ]
+    },
+    {
+        pregunta: '.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: true
+            }
+        ]
+    },
+    {
+        pregunta: '.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: true
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: '.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: false,
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: true,
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: false,
+            }
+        ]
+    },
+    {
+        pregunta: '.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: true
+            }
+        ]
+    },
+    {
+        pregunta: '.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: true
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: '.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: false,
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: true,
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: false,
+            }
+        ]
+    },
+    {
+        pregunta: '.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: true
+            }
+        ]
+    },
+    {
+        pregunta: '.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: true
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: '.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: false,
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: true,
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: false,
+            }
+        ]
+    },
+    {
+        pregunta: '.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: true
+            }
+        ]
+    },
+    {
+        pregunta: '.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: true
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: '.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: false,
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: true,
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: false,
+            }
+        ]
+    },
+    {
+        pregunta: '.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: true
+            }
+        ]
+    },
+    {
+        pregunta: '.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: true
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: '.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: false,
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: true,
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: false,
+            }
+        ]
+    },
+    {
+        pregunta: '.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: true
+            }
+        ]
+    },
+    {
+        pregunta: '.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: true
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: '.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: false,
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: true,
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: false,
+            }
+        ]
+    },
+    {
+        pregunta: '.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: true
+            }
+        ]
+    },
+    {
+        pregunta: '.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: true
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: false
+            }
+        ]
+    },
 ]

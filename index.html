@@ -16,14 +16,14 @@
         <div class="row">
             <div class="col">
                 <div>
-                    <div class="border  mt-5 mx-5" style="width: 50rem; height: 25rem;">
+                    <div class="border  mt-5 mx-5" style="width: 50rem; height: 28rem;">
                         <div style="text-align: center" > <h2 style="display:inline">È il turno del </h2> <h2 v-if="turno === 1 && jugador1.nombre !== ''" style="color: #3a71c9; display:inline">{{jugador1.nombre}}</h2> <h2 v-if="turno === 1 && jugador1.nombre === ''" style="color: #3a71c9; display:inline">giocatore 1</h2><h2 v-if="turno === 2 && jugador2.nombre !== ''" style="color: #e81010; display:inline">{{jugador2.nombre}}</h2><h2 v-if="turno === 2 && jugador2.nombre === ''" style="color: #e81010; display:inline">giocatore 2</h2><h2 style="display:inline">!</h2> </div>
-                        <h1 v-if="pregunta.length > 0" class="mt-5" style="text-align: center">{{pregunta[0].pregunta}}</h1>
+                        <div v-if="pregunta.length > 0" class="mt-5" style="text-align: center"> <img v-bind:src="'/preguntas/' + pregunta[0].pregunta"> </div>
                         <h3 v-if="pregunta.length > 0" style="text-align: center">Puntos: {{puntos}}</h3>
                     </div>
                 </div>
                 <div>
-                    <div class="border mt-5 mx-auto" style="width: 50rem; height: 14rem; align-items: center;">
+                    <div class="mt-5 mx-auto" style="width: 50rem; height: 14rem; align-items: center;">
                         <button v-if="pregunta.length > 0" v-on:click="respuesta(0)"  type="button" class="btn btn-primary btn-lg btn-block">{{pregunta[0].opciones[0].texto}}</button>
                         <button v-if="pregunta.length > 0" v-on:click="respuesta(1)" type="button" class="btn btn-primary btn-lg btn-block">{{pregunta[0].opciones[1].texto}}</button>
                         <button v-if="pregunta.length > 0" v-on:click="respuesta(2)" type="button" class="btn btn-primary btn-lg btn-block">{{pregunta[0].opciones[2].texto}}</button>
@@ -68,7 +68,6 @@
                             <input v-model="jugador2.nombre" type="text" class="form-control" id="exampleFormControlInput2" placeholder="Giocatore 2">
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fine</button>
                             <button type="button" data-dismiss="modal" class="btn btn-primary">Giochiamo!</button>
                         </div>
                         </div>
