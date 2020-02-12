@@ -374,14 +374,14 @@ var listaPreguntas = [
         ]
     },
     {
-        pregunta: '.png',
+        pregunta: 'cravatta.png',
         opciones: [
             {
                 texto: 'a- ',
                 esCorrecta: false,
             },
             {
-                texto: 'b- ',
+                texto: 'b- Cravatta',
                 esCorrecta: true,
             },
             {
@@ -391,7 +391,7 @@ var listaPreguntas = [
         ]
     },
     {
-        pregunta: '.png',
+        pregunta: 'croce.png',
         opciones: [
             {
                 texto: 'a- ',
@@ -402,16 +402,16 @@ var listaPreguntas = [
                 esCorrecta: false
             },
             {
-                texto: 'c- ',
+                texto: 'c- Croce',
                 esCorrecta: true
             }
         ]
     },
     {
-        pregunta: '.png',
+        pregunta: 'dipingere.png',
         opciones: [
             {
-                texto: 'a- ',
+                texto: 'a- Dipingere',
                 esCorrecta: true
             },
             {
@@ -425,14 +425,14 @@ var listaPreguntas = [
         ]
     },
     {
-        pregunta: '.png',
+        pregunta: 'ditta.png',
         opciones: [
             {
                 texto: 'a- ',
                 esCorrecta: false,
             },
             {
-                texto: 'b- ',
+                texto: 'b- Ditta',
                 esCorrecta: true,
             },
             {
@@ -442,7 +442,7 @@ var listaPreguntas = [
         ]
     },
     {
-        pregunta: '.png',
+        pregunta: 'fattoria.png',
         opciones: [
             {
                 texto: 'a- ',
@@ -453,16 +453,16 @@ var listaPreguntas = [
                 esCorrecta: false
             },
             {
-                texto: 'c- ',
+                texto: 'c- Fattoria',
                 esCorrecta: true
             }
         ]
     },
     {
-        pregunta: '.png',
+        pregunta: 'forbici.png',
         opciones: [
             {
-                texto: 'a- ',
+                texto: 'a- Forbici',
                 esCorrecta: true
             },
             {
@@ -476,14 +476,14 @@ var listaPreguntas = [
         ]
     },
     {
-        pregunta: '.png',
+        pregunta: 'giallo.png',
         opciones: [
             {
                 texto: 'a- ',
                 esCorrecta: false,
             },
             {
-                texto: 'b- ',
+                texto: 'b- Giallo',
                 esCorrecta: true,
             },
             {
@@ -493,7 +493,7 @@ var listaPreguntas = [
         ]
     },
     {
-        pregunta: '.png',
+        pregunta: 'grattugiare.png',
         opciones: [
             {
                 texto: 'a- ',
@@ -504,16 +504,16 @@ var listaPreguntas = [
                 esCorrecta: false
             },
             {
-                texto: 'c- ',
+                texto: 'c- Grattugiare',
                 esCorrecta: true
             }
         ]
     },
     {
-        pregunta: '.png',
+        pregunta: 'latte.png',
         opciones: [
             {
-                texto: 'a- ',
+                texto: 'a- Latte',
                 esCorrecta: true
             },
             {
@@ -527,14 +527,14 @@ var listaPreguntas = [
         ]
     },
     {
-        pregunta: '.png',
+        pregunta: 'letto.png',
         opciones: [
             {
                 texto: 'a- ',
                 esCorrecta: false,
             },
             {
-                texto: 'b- ',
+                texto: 'b- Letto',
                 esCorrecta: true,
             },
             {
@@ -544,7 +544,7 @@ var listaPreguntas = [
         ]
     },
     {
-        pregunta: '.png',
+        pregunta: 'lucertola.png',
         opciones: [
             {
                 texto: 'a- ',
@@ -555,16 +555,16 @@ var listaPreguntas = [
                 esCorrecta: false
             },
             {
-                texto: 'c- ',
+                texto: 'c- Lucertola',
                 esCorrecta: true
             }
         ]
     },
     {
-        pregunta: '.png',
+        pregunta: 'matita.png',
         opciones: [
             {
-                texto: 'a- ',
+                texto: 'a- Matita',
                 esCorrecta: true
             },
             {
@@ -578,14 +578,14 @@ var listaPreguntas = [
         ]
     },
     {
-        pregunta: '.png',
+        pregunta: 'mucca.png',
         opciones: [
             {
                 texto: 'a- ',
                 esCorrecta: false,
             },
             {
-                texto: 'b- ',
+                texto: 'b- Mucca',
                 esCorrecta: true,
             },
             {
@@ -595,7 +595,7 @@ var listaPreguntas = [
         ]
     },
     {
-        pregunta: '.png',
+        pregunta: 'nuotare.png',
         opciones: [
             {
                 texto: 'a- ',
@@ -606,16 +606,16 @@ var listaPreguntas = [
                 esCorrecta: false
             },
             {
-                texto: 'c- ',
+                texto: 'c- Nuotare',
                 esCorrecta: true
             }
         ]
     },
     {
-        pregunta: '.png',
+        pregunta: 'nuvola.png',
         opciones: [
             {
-                texto: 'a- ',
+                texto: 'a- Nuvola',
                 esCorrecta: true
             },
             {
@@ -629,14 +629,65 @@ var listaPreguntas = [
         ]
     },
     {
-        pregunta: '.png',
+        pregunta: 'occhi.png',
         opciones: [
             {
                 texto: 'a- ',
                 esCorrecta: false,
             },
             {
+                texto: 'b- Occhi',
+                esCorrecta: true,
+            },
+            {
+                texto: 'c- Ochio',
+                esCorrecta: false,
+            }
+        ]
+    },
+    {
+        pregunta: 'pallacanesto.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: false
+            },
+            {
                 texto: 'b- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Pallacanesto',
+                esCorrecta: true
+            }
+        ]
+    },
+    {
+        pregunta: 'panino.png',
+        opciones: [
+            {
+                texto: 'a- Panino',
+                esCorrecta: true
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'panna montata.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: false,
+            },
+            {
+                texto: 'b- Panna montata',
                 esCorrecta: true,
             },
             {
@@ -646,7 +697,7 @@ var listaPreguntas = [
         ]
     },
     {
-        pregunta: '.png',
+        pregunta: 'penna.png',
         opciones: [
             {
                 texto: 'a- ',
@@ -657,16 +708,16 @@ var listaPreguntas = [
                 esCorrecta: false
             },
             {
-                texto: 'c- ',
+                texto: 'c- Penna',
                 esCorrecta: true
             }
         ]
     },
     {
-        pregunta: '.png',
+        pregunta: 'pioggia.png',
         opciones: [
             {
-                texto: 'a- ',
+                texto: 'a- Pioggia',
                 esCorrecta: true
             },
             {
@@ -680,14 +731,14 @@ var listaPreguntas = [
         ]
     },
     {
-        pregunta: '.png',
+        pregunta: 'pizza.png',
         opciones: [
             {
                 texto: 'a- ',
                 esCorrecta: false,
             },
             {
-                texto: 'b- ',
+                texto: 'b- Pizza',
                 esCorrecta: true,
             },
             {
@@ -697,11 +748,28 @@ var listaPreguntas = [
         ]
     },
     {
-        pregunta: '.png',
+        pregunta: 'pomodoro.png',
         opciones: [
             {
                 texto: 'a- ',
                 esCorrecta: false
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Pomodoro',
+                esCorrecta: true
+            }
+        ]
+    },
+    {
+        pregunta: 'quadrato.png',
+        opciones: [
+            {
+                texto: 'a- Quadrato',
+                esCorrecta: true
             },
             {
                 texto: 'b- ',
@@ -709,15 +777,49 @@ var listaPreguntas = [
             },
             {
                 texto: 'c- ',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'righello.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- Righello',
+                esCorrecta: true
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'sedersi.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Sedersi',
                 esCorrecta: true
             }
         ]
     },
     {
-        pregunta: '.png',
+        pregunta: 'sole.png',
         opciones: [
             {
-                texto: 'a- ',
+                texto: 'a- Sole',
                 esCorrecta: true
             },
             {
@@ -731,24 +833,24 @@ var listaPreguntas = [
         ]
     },
     {
-        pregunta: '.png',
+        pregunta: 'spezie.png',
         opciones: [
             {
                 texto: 'a- ',
-                esCorrecta: false,
+                esCorrecta: false
             },
             {
-                texto: 'b- ',
-                esCorrecta: true,
+                texto: 'b- Spezie',
+                esCorrecta: true
             },
             {
                 texto: 'c- ',
-                esCorrecta: false,
+                esCorrecta: false
             }
         ]
     },
     {
-        pregunta: '.png',
+        pregunta: 'stella.png',
         opciones: [
             {
                 texto: 'a- ',
@@ -759,21 +861,89 @@ var listaPreguntas = [
                 esCorrecta: false
             },
             {
-                texto: 'c- ',
+                texto: 'c- Stella',
                 esCorrecta: true
             }
         ]
     },
     {
-        pregunta: '.png',
+        pregunta: 'taccuino.png',
         opciones: [
             {
-                texto: 'a- ',
+                texto: 'a- Taccuino',
                 esCorrecta: true
             },
             {
                 texto: 'b- ',
                 esCorrecta: false
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'temperino.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- Temperino',
+                esCorrecta: true
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'tenda.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Tenda',
+                esCorrecta: true
+            }
+        ]
+    },
+    {
+        pregunta: 'zaino.png',
+        opciones: [
+            {
+                texto: 'a- Zaino',
+                esCorrecta: true
+            },
+            {
+                texto: 'b- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- ',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'zanzara.png',
+        opciones: [
+            {
+                texto: 'a- ',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- Zanzara',
+                esCorrecta: true
             },
             {
                 texto: 'c- ',
