@@ -102,18 +102,18 @@ var app = new Vue({
 
 var listaPreguntas = [
     {
-        pregunta: '¿Cuántos tentáculos tiene un pulpo? ',
+        pregunta: 'anatra.png',
         opciones: [
             {
-                texto: 'a- 4',
+                texto: 'a- patto',
                 esCorrecta: false
             },
             {
-                texto: 'b- 8',
+                texto: 'b- anatra',
                 esCorrecta: true
             },
             {
-                texto: 'c- 10',
+                texto: 'c- ... No se',
                 esCorrecta: false
             }
         ]
