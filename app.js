@@ -49,6 +49,7 @@ var app = new Vue({
             }  
             this.pregunta = []
             this.preguntas = [] 
+            turno = 1
         },
         preguntar(){
             let n = obtenerNumero(this.preguntas.length,0)
@@ -64,9 +65,9 @@ var app = new Vue({
                         this.jugador1.puntos = 100
                         barraProgreso('j1', this.jugador1.puntos)
                         alert(this.jugador1.nombre + ' vince!!!')
+                        this.limpiar()
                     }                    
                     barraProgreso('j1', this.jugador1.puntos)
-                    this.limpiar()
                 }
                 else{
                     this.jugador2.puntos += this.puntos;
@@ -75,9 +76,9 @@ var app = new Vue({
                         this.jugador2.puntos = 100
                         barraProgreso('j2', this.jugador2.puntos)
                         alert(this.jugador2.nombre + ' vince!!!')
+                        this.limpiar()
                     }                    
                     barraProgreso('j2', this.jugador2.puntos)
-                    this.limpiar()
                 }
             }
             else{
@@ -323,14 +324,14 @@ var listaPreguntas = [
         ]
     },
     {
-        pregunta: 'ciocolato.png',
+        pregunta: 'cioccolato.png',
         opciones: [
             {
                 texto: 'a- Chocolatte',
                 esCorrecta: false,
             },
             {
-                texto: 'b- Ciocolato',
+                texto: 'b- Cioccolato',
                 esCorrecta: true,
             },
             {
@@ -646,7 +647,7 @@ var listaPreguntas = [
         ]
     },
     {
-        pregunta: 'pallacanesto.png',
+        pregunta: 'pallacanestro.png',
         opciones: [
             {
                 texto: 'a- ',
@@ -657,7 +658,7 @@ var listaPreguntas = [
                 esCorrecta: false
             },
             {
-                texto: 'c- Pallacanesto',
+                texto: 'c- Pallacanestro',
                 esCorrecta: true
             }
         ]
