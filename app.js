@@ -114,7 +114,7 @@ var listaPreguntas = [
                 esCorrecta: false
             },
             {
-                texto: 'c- ',
+                texto: 'c- Patcio',
                 esCorrecta: false
             }
         ]
@@ -123,7 +123,7 @@ var listaPreguntas = [
         pregunta: 'arcobaleno.png',
         opciones: [
             {
-                texto: 'a- ',
+                texto: 'a- Arcoris',
                 esCorrecta: false,
             },
             {
@@ -140,7 +140,7 @@ var listaPreguntas = [
         pregunta: 'asino.png',
         opciones: [
             {
-                texto: 'a- ',
+                texto: 'a- burro',
                 esCorrecta: false
             },
             {
@@ -161,7 +161,7 @@ var listaPreguntas = [
                 esCorrecta: true
             },
             {
-                texto: 'b- ',
+                texto: 'b- Automove',
                 esCorrecta: false
             },
             {
@@ -174,7 +174,7 @@ var listaPreguntas = [
         pregunta: 'baseball.png',
         opciones: [
             {
-                texto: 'a- ',
+                texto: 'a- beisbol',
                 esCorrecta: false,
             },
             {
@@ -195,7 +195,7 @@ var listaPreguntas = [
                 esCorrecta: false
             },
             {
-                texto: 'b- ',
+                texto: 'b- azzurro',
                 esCorrecta: false
             },
             {
@@ -212,7 +212,7 @@ var listaPreguntas = [
                 esCorrecta: true
             },
             {
-                texto: 'b- ',
+                texto: 'b- mantechila',
                 esCorrecta: false
             },
             {
@@ -233,7 +233,7 @@ var listaPreguntas = [
                 esCorrecta: true,
             },
             {
-                texto: 'c- ',
+                texto: 'c- Futbole',
                 esCorrecta: false,
             }
         ]
@@ -246,7 +246,7 @@ var listaPreguntas = [
                 esCorrecta: false
             },
             {
-                texto: 'b- ',
+                texto: 'b- Medias',
                 esCorrecta: false
             },
             {
@@ -276,7 +276,7 @@ var listaPreguntas = [
         pregunta: 'carta.png',
         opciones: [
             {
-                texto: 'a- ',
+                texto: 'a- Folio',
                 esCorrecta: false,
             },
             {
@@ -284,7 +284,7 @@ var listaPreguntas = [
                 esCorrecta: true,
             },
             {
-                texto: 'c- ',
+                texto: 'c- Papiro',
                 esCorrecta: false,
             }
         ]
@@ -293,7 +293,7 @@ var listaPreguntas = [
         pregunta: 'cartella.png',
         opciones: [
             {
-                texto: 'a- ',
+                texto: 'a- Carpie',
                 esCorrecta: false
             },
             {
@@ -335,7 +335,7 @@ var listaPreguntas = [
                 esCorrecta: true,
             },
             {
-                texto: 'c- ',
+                texto: 'c- Ciotoretto',
                 esCorrecta: false,
             }
         ]
@@ -344,11 +344,11 @@ var listaPreguntas = [
         pregunta: 'colla.png',
         opciones: [
             {
-                texto: 'a- ',
+                texto: 'a- Pegantie',
                 esCorrecta: false
             },
             {
-                texto: 'b- ',
+                texto: 'b- Gomma',
                 esCorrecta: false
             },
             {
@@ -369,7 +369,7 @@ var listaPreguntas = [
                 esCorrecta: false
             },
             {
-                texto: 'c- ',
+                texto: 'c- Boni',
                 esCorrecta: false
             }
         ]
@@ -386,7 +386,7 @@ var listaPreguntas = [
                 esCorrecta: true,
             },
             {
-                texto: 'c- ',
+                texto: 'c- Corvatinne',
                 esCorrecta: false,
             }
         ]
@@ -399,7 +399,7 @@ var listaPreguntas = [
                 esCorrecta: false
             },
             {
-                texto: 'b- ',
+                texto: 'b- Cruce',
                 esCorrecta: false
             },
             {
@@ -420,7 +420,7 @@ var listaPreguntas = [
                 esCorrecta: false
             },
             {
-                texto: 'c- ',
+                texto: 'c- pintare',
                 esCorrecta: false
             }
         ]
@@ -429,7 +429,7 @@ var listaPreguntas = [
         pregunta: 'ditta.png',
         opciones: [
             {
-                texto: 'a- ',
+                texto: 'a- Ditto',
                 esCorrecta: false,
             },
             {
@@ -450,7 +450,7 @@ var listaPreguntas = [
                 esCorrecta: false
             },
             {
-                texto: 'b- ',
+                texto: 'b- Grancia',
                 esCorrecta: false
             },
             {
@@ -467,7 +467,7 @@ var listaPreguntas = [
                 esCorrecta: true
             },
             {
-                texto: 'b- ',
+                texto: 'b- Ticera',
                 esCorrecta: false
             },
             {
@@ -488,7 +488,7 @@ var listaPreguntas = [
                 esCorrecta: true,
             },
             {
-                texto: 'c- ',
+                texto: 'c- Amarelo',
                 esCorrecta: false,
             }
         ]
@@ -501,7 +501,7 @@ var listaPreguntas = [
                 esCorrecta: false
             },
             {
-                texto: 'b- ',
+                texto: 'b- Ragelo',
                 esCorrecta: false
             },
             {
@@ -518,7 +518,7 @@ var listaPreguntas = [
                 esCorrecta: true
             },
             {
-                texto: 'b- ',
+                texto: 'b- Lette',
                 esCorrecta: false
             },
             {
@@ -531,7 +531,7 @@ var listaPreguntas = [
         pregunta: 'letto.png',
         opciones: [
             {
-                texto: 'a- ',
+                texto: 'a- Camie',
                 esCorrecta: false,
             },
             {
@@ -552,7 +552,7 @@ var listaPreguntas = [
                 esCorrecta: false
             },
             {
-                texto: 'b- ',
+                texto: 'b- Lagarte',
                 esCorrecta: false
             },
             {
@@ -582,7 +582,7 @@ var listaPreguntas = [
         pregunta: 'mucca.png',
         opciones: [
             {
-                texto: 'a- ',
+                texto: 'a- Mucchia',
                 esCorrecta: false,
             },
             {
@@ -599,7 +599,7 @@ var listaPreguntas = [
         pregunta: 'nuotare.png',
         opciones: [
             {
-                texto: 'a- ',
+                texto: 'a- Nadare',
                 esCorrecta: false
             },
             {
@@ -620,7 +620,7 @@ var listaPreguntas = [
                 esCorrecta: true
             },
             {
-                texto: 'b- ',
+                texto: 'b- Nuve',
                 esCorrecta: false
             },
             {
@@ -633,7 +633,7 @@ var listaPreguntas = [
         pregunta: 'occhi.png',
         opciones: [
             {
-                texto: 'a- ',
+                texto: 'a- Eye',
                 esCorrecta: false,
             },
             {
@@ -654,7 +654,7 @@ var listaPreguntas = [
                 esCorrecta: false
             },
             {
-                texto: 'b- ',
+                texto: 'b- Baloncesto',
                 esCorrecta: false
             },
             {
@@ -671,7 +671,7 @@ var listaPreguntas = [
                 esCorrecta: true
             },
             {
-                texto: 'b- ',
+                texto: 'b- Sandwich',
                 esCorrecta: false
             },
             {
@@ -692,7 +692,7 @@ var listaPreguntas = [
                 esCorrecta: true,
             },
             {
-                texto: 'c- ',
+                texto: 'c- Creme batie',
                 esCorrecta: false,
             }
         ]
@@ -705,7 +705,7 @@ var listaPreguntas = [
                 esCorrecta: false
             },
             {
-                texto: 'b- ',
+                texto: 'b- Tintero',
                 esCorrecta: false
             },
             {
@@ -722,7 +722,7 @@ var listaPreguntas = [
                 esCorrecta: true
             },
             {
-                texto: 'b- ',
+                texto: 'b- Lluglia',
                 esCorrecta: false
             },
             {
@@ -735,7 +735,7 @@ var listaPreguntas = [
         pregunta: 'pizza.png',
         opciones: [
             {
-                texto: 'a- ',
+                texto: 'a- Pissa',
                 esCorrecta: false,
             },
             {
@@ -743,7 +743,7 @@ var listaPreguntas = [
                 esCorrecta: true,
             },
             {
-                texto: 'c- ',
+                texto: 'c- Pitza',
                 esCorrecta: false,
             }
         ]
@@ -752,7 +752,7 @@ var listaPreguntas = [
         pregunta: 'pomodoro.png',
         opciones: [
             {
-                texto: 'a- ',
+                texto: 'a- Tometo',
                 esCorrecta: false
             },
             {
@@ -773,7 +773,7 @@ var listaPreguntas = [
                 esCorrecta: true
             },
             {
-                texto: 'b- ',
+                texto: 'b- Quadro',
                 esCorrecta: false
             },
             {
@@ -803,7 +803,7 @@ var listaPreguntas = [
         pregunta: 'sedersi.png',
         opciones: [
             {
-                texto: 'a- ',
+                texto: 'a- Sentare',
                 esCorrecta: false
             },
             {
@@ -854,7 +854,7 @@ var listaPreguntas = [
         pregunta: 'stella.png',
         opciones: [
             {
-                texto: 'a- ',
+                texto: 'a- Stare',
                 esCorrecta: false
             },
             {
@@ -875,7 +875,7 @@ var listaPreguntas = [
                 esCorrecta: true
             },
             {
-                texto: 'b- ',
+                texto: 'b- Libretta',
                 esCorrecta: false
             },
             {
@@ -888,7 +888,7 @@ var listaPreguntas = [
         pregunta: 'temperino.png',
         opciones: [
             {
-                texto: 'a- ',
+                texto: 'a- Sacamina',
                 esCorrecta: false
             },
             {
@@ -909,7 +909,7 @@ var listaPreguntas = [
                 esCorrecta: false
             },
             {
-                texto: 'b- ',
+                texto: 'b- Courtine',
                 esCorrecta: false
             },
             {
@@ -926,7 +926,7 @@ var listaPreguntas = [
                 esCorrecta: true
             },
             {
-                texto: 'b- ',
+                texto: 'b- Bolsa',
                 esCorrecta: false
             },
             {
@@ -947,7 +947,7 @@ var listaPreguntas = [
                 esCorrecta: true
             },
             {
-                texto: 'c- ',
+                texto: 'c- Mosquite',
                 esCorrecta: false
             }
         ]
