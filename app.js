@@ -114,7 +114,7 @@ var listaPreguntas = [
                 esCorrecta: false
             },
             {
-                texto: 'c- ... No se',
+                texto: 'c- ',
                 esCorrecta: false
             }
         ]
@@ -569,7 +569,7 @@ var listaPreguntas = [
                 esCorrecta: true
             },
             {
-                texto: 'b- ',
+                texto: 'b- Penna',
                 esCorrecta: false
             },
             {
@@ -590,7 +590,7 @@ var listaPreguntas = [
                 esCorrecta: true,
             },
             {
-                texto: 'c- ',
+                texto: 'c- Vacca',
                 esCorrecta: false,
             }
         ]
