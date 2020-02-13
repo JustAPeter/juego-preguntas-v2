@@ -18,7 +18,7 @@
                 <div>
                     <div class="border  mt-5 mx-5" style="width: 50rem; height: 28rem;">
                         <div style="text-align: center" > <h2 style="display:inline">È il turno del </h2> <h2 v-if="turno === 1 && jugador1.nombre !== ''" style="color: #35C80A; display:inline">{{jugador1.nombre}}</h2> <h2 v-if="turno === 1 && jugador1.nombre === ''" style="color: #35C80A; display:inline">giocatore 1</h2><h2 v-if="turno === 2 && jugador2.nombre !== ''" style="color: #e81010; display:inline">{{jugador2.nombre}}</h2><h2 v-if="turno === 2 && jugador2.nombre === ''" style="color: #e81010; display:inline">giocatore 2</h2><h2 style="display:inline">!</h2> </div>
-                        <div v-if="pregunta.length > 0" class="mt-5" style="text-align: center"> <img v-bind:src="'/preguntas/' + pregunta[0].pregunta"> </div>
+                        <div v-if="pregunta.length > 0" class="mt-5" style="text-align: center"> <img v-bind:src="'/juego-preguntas-v2/preguntas/' + pregunta[0].pregunta"> </div>
                         <h3 v-if="pregunta.length > 0" style="text-align: center">Puntos: {{puntos}}</h3>
                     </div>
                 </div>
