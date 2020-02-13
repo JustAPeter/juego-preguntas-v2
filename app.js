@@ -212,7 +212,7 @@ var listaPreguntas = [
                 esCorrecta: true
             },
             {
-                texto: 'b- mantechila',
+                texto: 'b- Mantechila',
                 esCorrecta: false
             },
             {
