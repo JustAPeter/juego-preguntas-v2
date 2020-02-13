@@ -54,7 +54,7 @@ var app = new Vue({
         preguntar(){
             let n = obtenerNumero(this.preguntas.length,0)
             this.pregunta = this.preguntas.splice(n,1);
-            this.puntos = obtenerNumero(26,8);
+            this.puntos = obtenerNumero(16,5);
         },
         respuesta(opcion){
             if(this.pregunta[0].opciones[opcion].esCorrecta){
@@ -140,11 +140,11 @@ var listaPreguntas = [
         pregunta: 'asino.png',
         opciones: [
             {
-                texto: 'a- burro',
+                texto: 'a- Burro',
                 esCorrecta: false
             },
             {
-                texto: 'b- ',
+                texto: 'b- Asno',
                 esCorrecta: false
             },
             {
@@ -263,11 +263,11 @@ var listaPreguntas = [
                 esCorrecta: true
             },
             {
-                texto: 'b- Carne',
+                texto: 'b- Carnecia',
                 esCorrecta: false
             },
             {
-                texto: 'c- Camiza',
+                texto: 'c- Camizza',
                 esCorrecta: false
             }
         ]
@@ -420,7 +420,7 @@ var listaPreguntas = [
                 esCorrecta: false
             },
             {
-                texto: 'c- pintare',
+                texto: 'c- Pintare',
                 esCorrecta: false
             }
         ]
@@ -948,6 +948,856 @@ var listaPreguntas = [
             },
             {
                 texto: 'c- Mosquite',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'acqua.png',
+        opciones: [
+            {
+                texto: 'a- Acua',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- Acqua',
+                esCorrecta: true
+            },
+            {
+                texto: 'c- Agua',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'aereo.png',
+        opciones: [
+            {
+                texto: 'a- Avion',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- Avione',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Aereo',
+                esCorrecta: true
+            }
+        ]
+    },
+    {
+        pregunta: 'ananas.png',
+        opciones: [
+            {
+                texto: 'a- Ananas',
+                esCorrecta: true
+            },
+            {
+                texto: 'b- Pigna',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Pinya',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'anguria.png',
+        opciones: [
+            {
+                texto: 'a- Anguria',
+                esCorrecta: true
+            },
+            {
+                texto: 'b- Sandia',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Melancia',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'ape.png',
+        opciones: [
+            {
+                texto: 'a- Abeille',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- Abella',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Ape',
+                esCorrecta: true
+            }
+        ]
+    },    
+    {
+        pregunta: 'asciugamano.png',
+        opciones: [
+            {
+                texto: 'a- Toalla',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- Asciugamano',
+                esCorrecta: true
+            },
+            {
+                texto: 'c- Tuáille',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'barca.png',
+        opciones: [
+            {
+                texto: 'a- Bote',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- Barco',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Barca',
+                esCorrecta: true
+            }
+        ]
+    },
+    {
+        pregunta: 'birra.png',
+        opciones: [
+            {
+                texto: 'a- Pivo',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- Birra',
+                esCorrecta: true
+            },
+            {
+                texto: 'c- Cerveze',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'biscotto.png',
+        opciones: [
+            {
+                texto: 'a- Galhetta',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- Biscotto',
+                esCorrecta: true
+            },
+            {
+                texto: 'c- Bicoito',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'calcolatrice.png',
+        opciones: [
+            {
+                texto: 'a- Calcolatrice',
+                esCorrecta: true
+            },
+            {
+                texto: 'b- Calcoladora',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Calculatora',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'cane.png',
+        opciones: [
+            {
+                texto: 'a- Perro',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- Cane',
+                esCorrecta: true
+            },
+            {
+                texto: 'c- Can',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'capelli.png',
+        opciones: [
+            {
+                texto: 'a- Capelli',
+                esCorrecta: true
+            },
+            {
+                texto: 'b- Capelo',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Cabello',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'chitarra.png',
+        opciones: [
+            {
+                texto: 'a- Guitarra',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- Chitarra',
+                esCorrecta: true
+            },
+            {
+                texto: 'c- Citarre',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'cinque.png',
+        opciones: [
+            {
+                texto: 'a- Cinque',
+                esCorrecta: true
+            },
+            {
+                texto: 'b- Cinco',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Cinche',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'cipolla.png',
+        opciones: [
+            {
+                texto: 'a- Cipolla',
+                esCorrecta: true
+            },
+            {
+                texto: 'b- Cebola',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Capolle',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'coltello.png',
+        opciones: [
+            {
+                texto: 'a- Cortadore',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- Coltello',
+                esCorrecta: true
+            },
+            {
+                texto: 'c- Cutillo',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'dente.png',
+        opciones: [
+            {
+                texto: 'a- Dienti',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- Dento',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Dente',
+                esCorrecta: true
+            }
+        ]
+    },
+    {
+        pregunta: 'donna.png',
+        opciones: [
+            {
+                texto: 'a- Mulher',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- Done',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Donna',
+                esCorrecta: true
+            }
+        ]
+    },
+    {
+        pregunta: 'due.png',
+        opciones: [
+            {
+                texto: 'a- Dos',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- Doi',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Due',
+                esCorrecta: true
+            }
+        ]
+    },
+    {
+        pregunta: 'farfalla.png',
+        opciones: [
+            {
+                texto: 'a- Farmella',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- Farfalla',
+                esCorrecta: true
+            },
+            {
+                texto: 'c- Fartella',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'formaggio.png',
+        opciones: [
+            {
+                texto: 'a- Formatge',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- Quesso',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Formaggio',
+                esCorrecta: true
+            }
+        ]
+    },
+    {
+        pregunta: 'formica.png',
+        opciones: [
+            {
+                texto: 'a- Formicce',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- Formica',
+                esCorrecta: true
+            },
+            {
+                texto: 'c- Antina',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'fragole.png',
+        opciones: [
+            {
+                texto: 'a- Fragole',
+                esCorrecta: true
+            },
+            {
+                texto: 'b- Fressere',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Fraise',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'grigio.png',
+        opciones: [
+            {
+                texto: 'a- Grigio',
+                esCorrecta: true
+            },
+            {
+                texto: 'b- Grice',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Graisse',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'labbra.png',
+        opciones: [
+            {
+                texto: 'a- Labie',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- Labbra',
+                esCorrecta: true
+            },
+            {
+                texto: 'c- Lèvre',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'lingua.png',
+        opciones: [
+            {
+                texto: 'a- Lingua',
+                esCorrecta: true
+            },
+            {
+                texto: 'b- Lengua',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Langue',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'luna.png',
+        opciones: [
+            {
+                texto: 'a- Lunne',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- Lluna',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Luna',
+                esCorrecta: true
+            }
+        ]
+    },
+    {
+        pregunta: 'mela.png',
+        opciones: [
+            {
+                texto: 'a- Melana',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- Mela',
+                esCorrecta: true
+            },
+            {
+                texto: 'c- Macana',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'metropolitana.png',
+        opciones: [
+            {
+                texto: 'a- Metro',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- Metropolitana',
+                esCorrecta: true
+            },
+            {
+                texto: 'c- Meitreo',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'occhiali.png',
+        opciones: [
+            {
+                texto: 'a- Occhiali',
+                esCorrecta: true
+            },
+            {
+                texto: 'b- Ochelari',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Lenti',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'ombrello.png',
+        opciones: [
+            {
+                texto: 'a- Umbrella',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- Sombrella',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Ombrello',
+                esCorrecta: true
+            }
+        ]
+    },
+    {
+        pregunta: 'palloncino.png',
+        opciones: [
+            {
+                texto: 'a- Glove',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- Ballon',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Palloncino',
+                esCorrecta: true
+            }
+        ]
+    },
+    {
+        pregunta: 'pane.png',
+        opciones: [
+            {
+                texto: 'a- Pani',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- Pan',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Pane',
+                esCorrecta: true
+            }
+        ]
+    },
+    {
+        pregunta: 'parco.png',
+        opciones: [
+            {
+                texto: 'a- Parque',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- Parco',
+                esCorrecta: true
+            },
+            {
+                texto: 'c- Parca',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'pettine.png',
+        opciones: [
+            {
+                texto: 'a- Penilla',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- Pettine',
+                esCorrecta: true
+            },
+            {
+                texto: 'c- Peine',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'pianoforte.png',
+        opciones: [
+            {
+                texto: 'a- Pianoforte',
+                esCorrecta: true
+            },
+            {
+                texto: 'b- Piano',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Pianino',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'prosciutto.png',
+        opciones: [
+            {
+                texto: 'a- Prosciutto',
+                esCorrecta: true
+            },
+            {
+                texto: 'b- Proscuito',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Proscella',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'salvagente.png',
+        opciones: [
+            {
+                texto: 'a- Salvavitta',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- Salvagente',
+                esCorrecta: true
+            },
+            {
+                texto: 'c- Salvavidas',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'saponetta.png',
+        opciones: [
+            {
+                texto: 'a- Saponetta',
+                esCorrecta: true
+            },
+            {
+                texto: 'b- Saponne',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Saportta',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'scarpe.png',
+        opciones: [
+            {
+                texto: 'a- Sapatti',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- Scapatto',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Scarpe',
+                esCorrecta: true
+            }
+        ]
+    },
+    {
+        pregunta: 'schiena.png',
+        opciones: [
+            {
+                texto: 'a- Spaldetta',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- Schiena',
+                esCorrecta: true
+            },
+            {
+                texto: 'c- Spalda',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'sedia.png',
+        opciones: [
+            {
+                texto: 'a- Sedia',
+                esCorrecta: true
+            },
+            {
+                texto: 'b- Silia',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Sedatta',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'specchio.png',
+        opciones: [
+            {
+                texto: 'a- Spegio',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- Specchio',
+                esCorrecta: true
+            },
+            {
+                texto: 'c- Spagio',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'succo.png',
+        opciones: [
+            {
+                texto: 'a- Succo',
+                esCorrecta: true
+            },
+            {
+                texto: 'b- Summo',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Suggio',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'tavolo.png',
+        opciones: [
+            {
+                texto: 'a- Tavla',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- Tavolo',
+                esCorrecta: true
+            },
+            {
+                texto: 'c- Tabbala',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'uomo.png',
+        opciones: [
+            {
+                texto: 'a- Uomo',
+                esCorrecta: true
+            },
+            {
+                texto: 'b- Uomino',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Homme',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'uovo.png',
+        opciones: [
+            {
+                texto: 'a- Uovo',
+                esCorrecta: true
+            },
+            {
+                texto: 'b- Uevo',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Huevo',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'vaso.png',
+        opciones: [
+            {
+                texto: 'a- Vaso',
+                esCorrecta: true
+            },
+            {
+                texto: 'b- Frassello',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Floritto',
+                esCorrecta: false
+            }
+        ]
+    },
+    {
+        pregunta: 'verme.png',
+        opciones: [
+            {
+                texto: 'a- Virmino',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- Vermano',
+                esCorrecta: false
+            },
+            {
+                texto: 'c- Verme',
+                esCorrecta: true
+            }
+        ]
+    },
+    {
+        pregunta: 'zucchero.png',
+        opciones: [
+            {
+                texto: 'a- Azuccaro',
+                esCorrecta: false
+            },
+            {
+                texto: 'b- Zucchero',
+                esCorrecta: true
+            },
+            {
+                texto: 'c- L`azucar',
                 esCorrecta: false
             }
         ]
