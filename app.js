@@ -573,7 +573,7 @@ var listaPreguntas = [
                 esCorrecta: false
             },
             {
-                texto: 'c- ',
+                texto: 'c- Lapice',
                 esCorrecta: false
             }
         ]
