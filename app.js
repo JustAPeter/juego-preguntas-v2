@@ -54,7 +54,7 @@ var app = new Vue({
         preguntar(){
             let n = obtenerNumero(this.preguntas.length,0)
             this.pregunta = this.preguntas.splice(n,1);
-            this.puntos = obtenerNumero(16,5);
+            this.puntos = obtenerNumero(26,8);
         },
         respuesta(opcion){
             if(this.pregunta[0].opciones[opcion].esCorrecta){
@@ -64,7 +64,11 @@ var app = new Vue({
                     if (this.jugador1.puntos >= 100){
                         this.jugador1.puntos = 100
                         barraProgreso('j1', this.jugador1.puntos)
-                        alert(this.jugador1.nombre + ' vince!!!')
+                        if (this.jugador1.nombre.length === 0){
+                            alert('Giocatore 1 vince!!!')
+                        } else{
+                            alert(this.jugador1.nombre + ' vince!!!')
+                        }
                         this.limpiar()
                     }                    
                     barraProgreso('j1', this.jugador1.puntos)
@@ -75,7 +79,11 @@ var app = new Vue({
                     if (this.jugador2.puntos >= 100){
                         this.jugador2.puntos = 100
                         barraProgreso('j2', this.jugador2.puntos)
-                        alert(this.jugador2.nombre + ' vince!!!')
+                        if (this.jugador2.nombre.length === 0){
+                            alert('Giocatore 2 vince!!!')
+                        } else{
+                            alert(this.jugador2.nombre + ' vince!!!')
+                        }
                         this.limpiar()
                     }                    
                     barraProgreso('j2', this.jugador2.puntos)
