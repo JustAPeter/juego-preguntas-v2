@@ -49,6 +49,8 @@ var app = new Vue({
             }  
             this.pregunta = []
             this.preguntas = [] 
+            barraProgreso('j1', this.jugador1.puntos)
+            barraProgreso('j2', this.jugador2.puntos)
             turno = 1
         },
         preguntar(){
@@ -61,6 +63,7 @@ var app = new Vue({
                 if(this.turno == 1){
                     this.jugador1.puntos += this.puntos;
                     this.jugador1.preguntasAcertadas ++
+                    barraProgreso('j1', this.jugador1.puntos)
                     if (this.jugador1.puntos >= 100){
                         this.jugador1.puntos = 100
                         barraProgreso('j1', this.jugador1.puntos)
@@ -71,11 +74,12 @@ var app = new Vue({
                         }
                         this.limpiar()
                     }                    
-                    barraProgreso('j1', this.jugador1.puntos)
+                    
                 }
                 else{
                     this.jugador2.puntos += this.puntos;
                     this.jugador2.preguntasAcertadas ++
+                    barraProgreso('j2', this.jugador2.puntos)
                     if (this.jugador2.puntos >= 100){
                         this.jugador2.puntos = 100
                         barraProgreso('j2', this.jugador2.puntos)
@@ -86,7 +90,6 @@ var app = new Vue({
                         }
                         this.limpiar()
                     }                    
-                    barraProgreso('j2', this.jugador2.puntos)
                 }
             }
             else{
