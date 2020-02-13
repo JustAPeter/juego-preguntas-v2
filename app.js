@@ -267,7 +267,7 @@ var listaPreguntas = [
                 esCorrecta: false
             },
             {
-                texto: 'c- ',
+                texto: 'c- Camiza',
                 esCorrecta: false
             }
         ]
