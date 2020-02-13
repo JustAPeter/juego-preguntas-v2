@@ -426,7 +426,7 @@ var listaPreguntas = [
         ]
     },
     {
-        pregunta: 'dita.png',
+        pregunta: 'ditta.png',
         opciones: [
             {
                 texto: 'a- Ditto',
