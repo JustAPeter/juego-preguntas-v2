@@ -94,12 +94,12 @@ var app = new Vue({
             }
             else{
                 if(this.turno == 1){
-                    this.jugador1.puntos -= this.puntos;
+                    this.jugador1.puntos -= this.puntos/2;
                     if (this.jugador1.puntos < 0) this.jugador1.puntos = 0
                     barraProgreso('j1', this.jugador1.puntos)
                 }
                 else{
-                    this.jugador2.puntos -= this.puntos;
+                    this.jugador2.puntos -= this.puntos/2;
                     if (this.jugador2.puntos < 0) this.jugador2.puntos = 0
                     barraProgreso('j2', this.jugador2.puntos)
                 }
@@ -437,7 +437,7 @@ var listaPreguntas = [
         ]
     },
     {
-        pregunta: 'ditta.png',
+        pregunta: 'dita.png',
         opciones: [
             {
                 texto: 'a- Ditto',
